@@ -1,0 +1,37 @@
+.character-container {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #ce382f;
+    color: #242424;
+    border-bottom-right-radius: 20px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    img {
+        width: 290px;
+        height: 290px;
+        object-fit: cover;
+        margin: 10px auto;
+    }
+}
+
+.see-more {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+    font-weight: 600;
+
+    .chevron {
+        width: 20px;
+        height: auto;
+        margin-left: 10px;
+
+        &.top {
+            transform: rotate(180deg);
+        }
+    }
+}
